@@ -18,6 +18,10 @@ body {
     @apply w-[238px] h-[57px] rounded-full bg-gradient-to-l from-[#922775] to-[#E40979] flex items-center justify-center  text-white lg:shadow-none shadow-lg;
 }
 
+.btn-gradient2 {
+    @apply w-[238px] h-[57px] rounded-full bg-secondary flex items-center justify-center lg:shadow-none shadow-lg;
+}
+
 .dropdown {
     @apply flex relative flex-col; 
 }
@@ -42,7 +46,7 @@ body {
 
 /* Navbar */
 .navbar {
-    @apply transition-all -left-60;
+    @apply transition-all -left-[50rem] z-[99999];
 }
 
 .navbar.active {

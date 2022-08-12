@@ -8,6 +8,7 @@ module.exports = {
         secondary: "#FFD140",
         third: "#922775",
         fourty: "rgba(106, 0, 56, 58%)",
+        fivety: "#EBEBEB",
       },
       screens: {
         smPhone: '387px',
