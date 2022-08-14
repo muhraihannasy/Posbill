@@ -42,7 +42,16 @@ body {
     @apply lgTablet:pl-6 pl-3 py-1 hover:bg-primary text-black hover:text-white ;
 }
 
+.prev {
+    @apply absolute lg:left-[-5rem] left-[30%]  lg:top-[38%] bottom-[-2rem]  w-[30px];
+}
+
+.next {
+    @apply absolute lg:right-[-5rem] right-[30%] lg:top-[38%]  bottom-[-2rem]  w-[30px];
+}
+
 /* Utils */
+
 
 /* Navbar */
 .navbar {
